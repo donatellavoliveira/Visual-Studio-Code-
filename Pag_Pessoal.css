@@ -1,0 +1,96 @@
+/* Reset básico para remover margens e padronizar estilos */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    line-height: 1.6; /* Ajusta o espaçamento entre linhas */
+    background-color: #d1e1f89a; /* Cor de fundo clara */
+    color: #333; /* Cor do texto */
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #d1e1f8 !important; /* Cor de fundo personalizada (azul escuro) */
+    color: rgba(8, 13, 62, 0.71); /* Texto branco */
+    padding: 2rem; /* Espaçamento interno */
+}
+
+/* Estilo para o container do cabeçalho */
+.container-fluid {
+    display: flex; /* Garante layout flexível */
+    align-items: center; /* Alinha itens verticalmente */
+    justify-content: space-between; /* Espaça os itens nas extremidades */
+}
+
+/* Estilização do logo no navbar */
+.navbar-logo {
+    height: 60px; /* Define o tamanho da imagem (altura) */
+    margin-right: 10px; /* Espaço entre a imagem e outros itens */
+    border-radius: 50%; /* Torna a imagem circular */
+    object-fit: cover; /* Ajusta a imagem para se encaixar perfeitamente no contêiner */
+}
+
+/* Estilo para o título */
+.container-fluid h1 {
+    flex-grow: 1; /* Faz com que o título ocupe o espaço restante */
+    text-align: center; /* Centraliza o título no espaço disponível */
+    font-size: 1.5rem; /* Tamanho do texto */
+    margin: 0; /* Remove margens padrão */
+}
+
+
+/* Estilo principal */
+main {
+    padding: 1rem; /* Espaçamento interno das seções */
+    max-width: 800px; /* Largura máxima para leitura confortável */
+    margin: 0 auto; /* Centraliza o conteúdo na página */
+    background: #f3f8ff; /* Cor de fundo personalizada (azul escuro) */
+    ; /* Fundo branco */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Títulos das seções */
+h2 {
+    color: rgba(8, 13, 62, 0.551); /* Azul para destaque */
+    margin-bottom: 0.5rem; /* Espaçamento abaixo */
+}
+
+/* Listas */
+ul {
+    list-style-type: square; /* Define o estilo dos marcadores */
+    padding-left: 1.5rem; /* Margem interna à esquerda */
+}
+
+ul ul {
+    list-style-type: circle; /* Estilo para listas aninhadas */
+}
+
+/* Links */
+a {
+    color: #0077cc; /* Azul para links */
+    text-decoration: none; /* Remove o sublinhado padrão */
+}
+
+a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estilo personalizado para o botão */
+button, .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #c4d1fa;
+}
+
+/* Rodapé */
+footer {
+    text-align: center; /* Centraliza o texto */
+    padding: 1rem 0; /* Espaçamento interno */
+    background: #d1e1f8; /* Fundo azul */
+    color: rgba(8, 13, 62, 0.71); /* Texto branco */
+    margin-top: 2rem; /* Espaçamento acima do rodapé */
+}

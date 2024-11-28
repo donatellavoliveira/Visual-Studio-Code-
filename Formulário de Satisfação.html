@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="icon.png"> <!-- Colocar icon no site -->
+    <title>Pesquisa de Satisfação</title>
+    <link rel="stylesheet" href="estilo_FS.css"> <!-- Referência ao arquivo CSS -->
+</head>
+<body>
+ 
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Meu site - Donatella Valentina</h1>
+        <h2>Pesquisa de Satisfação</h2>
+    </header>
+ 
+    <!-- Formulário de Pesquisa de Satisfação -->
+    <form action="#" method="post">
+ 
+        <!-- Campo de texto para Nome -->
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+           
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+ 
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </fieldset>
+ 
+        <!-- Avaliação de Navegação com Botões de Rádio -->
+        <fieldset>
+            <legend>Avaliação de Navegação</legend>
+ 
+            <label>Como você avalia a navegação no site?</label>
+           
+            <input type="radio" id="estrela1" name="avaliacao" value="1">
+            <label for="estrela1">1 Estrela</label><br>
+           
+            <input type="radio" id="estrela2" name="avaliacao" value="2">
+            <label for="estrela2">2 Estrelas</label><br>
+           
+            <input type="radio" id="estrela3" name="avaliacao" value="3">
+            <label for="estrela3">3 Estrelas</label><br>
+           
+            <input type="radio" id="estrela4" name="avaliacao" value="4">
+            <label for="estrela4">4 Estrelas</label><br>
+           
+            <input type="radio" id="estrela5" name="avaliacao" value="5">
+            <label for="estrela5">5 Estrelas</label>
+        </fieldset>
+ 
+        <!-- Feedback em múltiplas opções -->
+        <fieldset>
+            <legend>Feedback sobre o Site</legend>
+ 
+            <label for="feedback">Selecione os itens que mais gostou no site:</label><br>
+ 
+            <input type="checkbox" id="navegacao" name="feedback" value="navegacao">
+            <label for="navegacao">Facilidade de Navegação</label><br>
+           
+            <input type="checkbox" id="design" name="feedback" value="design">
+            <label for="design">Design do Site</label><br>
+           
+            <input type="checkbox" id="velocidade" name="feedback" value="velocidade">
+            <label for="velocidade">Velocidade de Carregamento</label><br>
+        </fieldset>
+ 
+        <!-- Comentários Adicionais -->
+        <fieldset>
+            <legend>Comentários Adicionais</legend>
+ 
+            <label for="comentarios">Deixe seu comentário:</label>
+            <textarea id="comentarios" name="comentarios" rows="4" placeholder="Escreva aqui..."></textarea>
+        </fieldset>
+ 
+        <!-- Botão de envio -->
+        <button type="submit">Enviar Pesquisa</button>
+ 
+        <!-- Simulação de armazenamento local para fins educativos -->
+        <pre id="output"></pre>
+ 
+    </form>
+ 
+    <script>
+        // Simulação de armazenamento dos dados localmente
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault(); // Impede o envio real
+            const nome = document.getElementById('nome').value;
+            const email = document.getElementById('email').value;
+            const avaliacao = document.querySelector('input[name="avaliacao"]:checked')?.value;
+            const feedback = Array.from(document.querySelectorAll('input[name="feedback"]:checked')).map(el => el.value).join(', ');
+            const comentarios = document.getElementById('comentarios').value;
+ 
+            // Exibe os dados simulados em <pre> (substituir por lógica de armazenamento real se necessário)
+            const output = `Nome: ${nome}\nEmail: ${email}\nAvaliação: ${avaliacao} Estrelas\nFeedback: ${feedback}\nComentários: ${comentarios}`;
+            document.getElementById('output').textContent = output;
+        });
+    </script>
+ 
+</body>
+</html>

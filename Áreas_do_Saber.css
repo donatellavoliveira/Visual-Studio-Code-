@@ -1,0 +1,87 @@
+/* Estilo geral do corpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d1e1f89a;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #d1e1f8;
+    color: rgba(8, 13, 62, 0.71);
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilo da tabela */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+/* Células e cabeçalhos da tabela */
+th, td {
+    border: 1px solid #ffffff;
+    padding: 8px;
+    /*padding: usado para modificar o espaçamento*/
+    text-align: center;
+    /*text-align: alinha o texto*/
+}
+
+th {
+    background-color: #77a0c5;
+    /*bacground-color: usado para modificar a cor de fundo*/
+}
+
+/* Classes específicas com cores atualizadas */
+.chs {
+    background-color: #acc6fd; /* Cor para a área CHS */
+    /*bacground-color: usado para modificar a cor de fundo*/
+}
+
+.cnt {
+    background-color: #a0beff; /* Cor para a área CNT */
+    /*bacground-color: usado para modificar a cor de fundo*/
+}
+
+.mat {
+    background-color: #8bb0ff; /* Cor para a área MAT */
+    /*bacground-color: usado para modificar a cor de fundo*/
+}
+
+.lggs {
+    background-color: #7ba5ff; /* Cor para a área Linguagens */
+    /*bacground-color: usado para modificar a cor de fundo*/
+}
+
+.iot {
+    background-color: #6796fd; /* Cor para a área IoT */
+    /*bacground-color: usado para modificar a cor de fundo*/
+}
+
+/* Estilo personalizado para o botão */
+button, .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #dee5fd9f;
+}
+
+button:hover, .btn:hover {
+    background-color: #c1dbf7; /* Cor ao passar o mouse */
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 3rem 0;
+    background-color: #d1e1f8;
+    color: #adadad;
+    margin-top: 2rem;
+  }

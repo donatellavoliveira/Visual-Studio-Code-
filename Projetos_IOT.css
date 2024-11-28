@@ -1,0 +1,111 @@
+/* Estilo para o navbar */
+.custom-navbar {
+    background-color: #b7d2f7; /* Azul claro personalizado */
+}
+
+.custom-navbar .nav-link {
+    color: rgb(8, 13, 62); /* Azul escuro para os links */
+}
+
+.custom-navbar .nav-link:hover {
+    color: rgba(8, 13, 62, 0.71); /* Azul mais claro ao passar o mouse */
+}
+
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d1e1f86d; /* Azul muito claro para o fundo */
+}
+
+/* Estilo para títulos */
+h2 {
+    color: rgba(8, 13, 62, 0.833); /* Azul escuro */
+    text-align: center; /* Centraliza os títulos */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+h3 {
+    font-size: 1.2rem; /* Tamanho dos subtítulos */
+    text-align: center;
+    margin: 15px 0; /* Espaçamento superior e inferior */
+}
+
+/* Centralização de textos e botões */
+section p,
+section a {
+    text-align: center; /* Centraliza o texto e os botões */
+    margin: 10px auto; /* Centraliza com margem automática */
+    display: block; /* Garante que sejam tratados como bloco */
+}
+
+/* Estilo para botões */
+.btn-primary {
+    font-size: 1rem; /* Tamanho do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno */
+    display: inline-block; /* Garante que o botão mantenha sua largura ajustável */
+    margin: 10px auto; /* Centraliza com margem automática */
+}
+
+/* Estilo para seções */
+section {
+    margin-bottom: 50px; /* Espaçamento inferior entre as seções */
+    padding: 40px 20px; /* Espaçamento interno */
+    background-color: #d1e1f89a; /* Azul claro */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+/* Imagens */
+.section-img {
+    width: 150px; /* Reduz tamanho das imagens */
+    height: auto; /* Mantém proporção */
+    margin: 15px auto; /* Centraliza e espaça as imagens */
+    border-radius: 5px; /* Cantos arredondados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+section img {
+    display: block; /* Garante centralização horizontal */
+    max-width: 100%; /* Limita a largura ao contêiner */
+}
+
+/* Estilo específico para a seção de grupo */
+#grupo h2 {
+    font-size: 1.5rem; /* Tamanho maior para o título principal */
+    margin-bottom: 20px; /* Espaçamento inferior */
+} 
+
+/* Estilo para o contêiner de imagens lado a lado */
+.image-container {
+    display: flex; /* Ativa o layout flexbox */
+    justify-content: center; /* Centraliza as imagens no contêiner */
+    gap: 20px; /* Espaçamento horizontal entre as imagens */
+    margin-top: 15px; /* Espaçamento superior */
+}
+
+.section-img {
+    width: 150px; /* Define o tamanho das imagens */
+    height: auto; /* Mantém a proporção */
+    border-radius: 5px; /* Cantos arredondados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+/* Estilo personalizado para o botão */
+button, .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #c4d1fa;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 3rem 0;
+    background-color: #d1e1f8;
+    color: #adadad;
+    margin-top: 2rem;
+  }

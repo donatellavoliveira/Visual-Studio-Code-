@@ -1,0 +1,94 @@
+/* Estilo para os links do navbar */
+.navbar-nav .nav-link {
+    color: #ffffff !important; /* Cor branca padrão */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Efeito de transição */
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #b7d2f7; /* Fundo dourado ao passar o mouse */
+    color: #353535 !important; /* Texto preto ao passar o mouse */
+    border-radius: 5px; /* Bordas arredondadas para o efeito */
+}
+
+/* Ajuste do tamanho do carrossel */
+#carousel .carrossel-img {
+    align-items: center;
+    height: 300px; /* Define a altura fixa menor */
+    width: 100%; /* Garante que a imagem preencha a largura do contêiner */
+    object-fit: cover; /* Ajusta o conteúdo da imagem dentro da área definida */
+}
+
+/* Estilo personalizado para o Navbar */
+.navbar {
+    background-color: #d1e1f8 !important; /* Cor de fundo personalizada (azul escuro) */
+    border-bottom: 3px solid #d1e3fc; /* Adiciona uma borda inferior com tom mais escuro */
+}
+
+.navbar .nav-link {
+    color: #343a40 !important; /* Cor dos links no navbar (branco) */
+    transition: color 0.3s ease; /* Efeito de transição ao passar o mouse */
+}
+
+.navbar .nav-link:hover {
+    color: #020833 !important; /* Muda a cor ao passar o mouse */
+}
+
+/* Cor personalizada para o texto do navbar-brand */
+.navbar-brand {
+    color: #343a40 !important; /* Cor */
+    font-weight: bold; /* Deixa o texto em negrito (opcional) */
+    font-size: 1.5rem; /* Tamanho do texto (opcional) */
+    transition: color 0.3s ease; /* Efeito de transição ao passar o mouse */
+}
+
+/* Estilização do logo no navbar */
+.navbar-logo {
+    height: 40px; /* Define o tamanho da imagem (altura) */
+    margin-right: 5px; /* Espaço entre a imagem e o texto */
+    border-radius: 20%; /* Torna a imagem circular (opcional, depende do formato da imagem) */
+}
+
+/* Estilo geral do corpo */
+body {
+    background-color: #d1e1f89a;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #343a40;
+}
+
+/* Título das seções */
+h2 {
+    background-color: #d1e1f89a;
+    text-align: center;
+    color: #343a40;
+    margin-top: 20px;
+}
+
+/* Cards das áreas do saber */
+.card {
+    text-align: center;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+/* Botões estilizados para links */
+.btn-card {
+    cursor: pointer;
+    border: 1px solid #ddd;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    color:#343a40;
+}
+
+.btn-card:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Adiciona sombra ao botão */
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 3rem 0;
+    background-color: #d1e1f8;
+    color: #adadad;
+    margin-top: 2rem;
+  }

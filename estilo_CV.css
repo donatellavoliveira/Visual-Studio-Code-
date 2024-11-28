@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    /*font: usado para modificar a fonte*/
+    margin: 0;
+    /*margin: usado para modificar a margem*/
+    padding: 0;
+    /*padding: usado para modificar o espaçamento*/
+    background-color: #d1e1f89a;
+    /*bacground-color: usado para modificar a cor de fundo*/
+    color: #333;
+    /*color: usado para modificar a cor*/
+    /*Configuração de seções*/
+}
+
+.nome {
+    font-size: 24px;
+    /*font: usado para modificar o tamanho da fonte*/
+    text-align: center;
+    /*text-align: alinha o texto*/
+    color: #02083377;
+    /*color: usado para modificar a cor*/
+}
+
+.instituicao {
+    text-align: center;
+    /*text-align: alinha o texto*/
+    font-size: 18px;
+    /*font: usado para modificar o tamanho da fonte*/
+    margin-bottom: 20px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #020833d5;
+    /*bacground-color: usado para modificar a cor de fundo*/
+}
+
+.secao {
+    font-size: 20px;
+    /*font: usado para modificar o tamanho da fonte*/
+    text-align: center;
+    /*text-align: alinha o texto*/
+    color: #02083377;
+    /*color: usado para modificar a cor*/
+    font-weight: bold;
+    margin: 20px 0;
+    /*margin: usado para modificar a margem*/
+}
+
+ul, ol {
+    margin: 20px 40px;
+    /*margin: usado para modificar a margem*/
+    padding: 0;
+    /*padding: usado para modificar o espaçamento*/
+    list-style-position: inside;
+}
+
+ul.contato li, ul.habilidades li, ul.soft-skills li {
+    font-size: 16px;
+    /*font: usado para modificar o tamanho da fonte*/
+    margin-bottom: 5px;
+}
+
+ol.formacao li {
+    font-size: 16px;
+    /*font: usado para modificar o tamanho da fonte*/
+    margin-bottom: 5px;
+}
+
+a {
+    color: #007BFF;
+    /*color: usado para modificar a cor*/
+    text-decoration: none;
+    /*text-decoration: usado para add alguma decoração na palavra ou frase*/
+}
+
+a:hover {
+    text-decoration: underline;
+    /*text-decoration: usado para add alguma decoração na palavra ou frase*/
+}
+
+.texto {
+    margin: 0 40px;
+    /*margin: usado para modificar a margem*/
+    text-align: justify;
+    /*text-align: alinha o texto*/
+    font-size: 16px;
+    /*font: usado para modificar o tamanho da fonte*/
+}
+
+.projetos p {
+    margin: 10px 40px;
+    /*margin: usado para modificar a margem*/
+    font-size: 16px;
+    /*font: usado para modificar o tamanho da fonte*/
+}

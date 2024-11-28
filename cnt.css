@@ -1,0 +1,71 @@
+/* Estilo para o cabeçalho */
+header {
+    text-align: center;
+    background-color: #d1e1f8 !important; /* Cor de fundo personalizada (azul escuro) */
+    color: rgba(8, 13, 62, 0.71); /* Texto branco */
+    padding: 2rem; /* Espaçamento interno */
+}
+
+/* Estilo para o container do cabeçalho */
+.container-fluid {
+    text-align: center;
+    display: flex; /* Garante layout flexível */
+    align-items: center; /* Alinha itens verticalmente */
+    justify-content: space-between; /* Espaça os itens nas extremidades */
+}
+
+/* Estilização do logo no navbar */
+.navbar-logo {
+    height: 60px; /* Define o tamanho da imagem (altura) */
+    margin-right: 10px; /* Espaço entre a imagem e outros itens */
+    border-radius: 50%; /* Torna a imagem circular */
+    object-fit: cover; /* Ajusta a imagem para se encaixar perfeitamente no contêiner */
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #d1e1f89a
+}
+
+h2 {
+    color: rgba(8, 13, 62, 0.71);
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+/* Ajuste do tamanho do carrossel */
+#carousel .carrossel-img {
+    align-items: center;
+    height: 600px; /* Define a altura fixa menor */
+    width: 100%; /* Garante que a imagem preencha a largura do contêiner */
+    object-fit: cover; /* Ajusta o conteúdo da imagem dentro da área definida */
+}
+
+/* Estilo personalizado para o botão */
+button, .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #dee5fd9f;
+    color: rgba(8, 13, 62, 0.71);
+}
+
+button:hover, .btn:hover {
+    background-color: #c1dbf7; /* Cor ao passar o mouse */
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 3rem 0;
+    background-color: #d1e1f8;
+    color: #adadad;
+    margin-top: 2rem;
+  }

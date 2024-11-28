@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Pessoal - Donatella</title>
+    <!-- Link para o Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <!-- Link para o CSS customizado -->
+    <link rel="stylesheet" href="Site_Pessoal.css">
+</head>
+<body>
+    <!-- Navbar para navegação -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <!-- Imagem no canto esquerdo -->
+            <a class="navbar-brand" href="#">
+                <img src="05.jpeg" alt="Logo" class="navbar-logo">
+                Donna's
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <!-- Botão Áreas do Saber -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="Áreas do Saber.html" target="_blank">Áreas do Saber</a>
+                    </li>
+                    <!-- Botão IoT -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="Projetos IOT.html" target="_blank">Projetos IOT</a>
+                    </li>
+                    <!-- Botão Página Pessoal -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="Página Pessoal.html" target="_blank">Página Pessoal</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carrossel de Apresentação -->
+    <section id="carousel" class="mt-4">
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="09.jpeg" class="d-block w-100 carrossel-img" alt="Imagem 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Bem-vindo ao Meu Site!</h5>
+                        <p>Explore um pouco sobre o meu mundo.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="10.jpeg" class="d-block w-100 carrossel-img" alt="Imagem 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Áreas do Saber</h5>
+                        <p>Descubra algumas das minhas atividades em cada disciplina.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="02.jpeg" class="d-block w-100 carrossel-img" alt="Imagem 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Projetos de IoT</h5>
+                        <p>Veja alguns projetos que executei no curso.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Grid das Áreas do Saber -->
+    <section id="areas-saber" class="container mt-5">
+        <h2 class="text-center mb-4"> <b>Áreas do Saber</b></h2>
+        <div class="row">
+            <!-- Botão para Ciências Humanas -->
+            <div class="col-md-4">
+                <a href="Ciências Humanas.html" target="_blank" class="text-decoration-none">
+                    <div class="card btn-card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Ciências Humanas</h5>
+                            <p class="card-text">História, Geografia, Filosofia e Sociologia.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- Botão para Ciências da Natureza -->
+            <div class="col-md-4">
+                <a href="Ciências da Natureza.htm" target="_blank" class="text-decoration-none">
+                    <div class="card btn-card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Ciências da Natureza</h5>
+                            <p class="card-text">Física, Química e Biologia.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- Botão para Liguagens -->
+            <div class="col-md-4">
+                <a href="Liguagens.html" target="_blank" class="text-decoration-none">
+                    <div class="card btn-card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Linguagens e Suas Tecnologias</h5>
+                            <p class="card-text">Portugues, Artes, Educação Física e Ingles.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- Botão para Matemática -->
+            <div class="col-md-4">
+                <a href="Matemática.html" target="_blank" class="text-decoration-none">
+                    <div class="card btn-card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Matemática</h5>
+                            <p class="card-text">Matemática e Estatística.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Página Pessoal -->
+    <section id="pessoal" class="mt-5">
+        <div class="container">
+            <h2 class="text-center"><b>Sobre Mim</b></h2>
+            <br>
+            <p class="text-center">Olá, meu nome é Donatella, tenho 17 anos e sou estudante do ensino médio técnico de IoT.
+                Estou cursando IoT desde 2022 e este ano eu me formo, também estou cursando inglês e já me formei em LIBRAS.
+                Sou apaixonada por ler livros de romances ou poesias, ouvir musicas e assitir filmes, séries e musicais.
+                Atualmente tenho buscado aprimorar minhas habilidades com a linguagem de programação, a lingua inglesa e a linguagem de sinais.</p>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy;2024 Donatella Valentina - Todos os direitos reservados</p>
+      </footer>
+
+    <!-- Link para o Bootstrap JS e JavaScript customizado -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="Site_Pessoal.js"></script>
+</body>
+</html>
